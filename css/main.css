@@ -1,0 +1,134 @@
+header{
+    background-color: #FEC63E;
+}
+.nav-link{
+    margin-right: 20px;
+    color: black;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.primary_banner{
+    background-image: url('../static/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+}
+.banner-texts{
+    text-shadow: 2px 2px #000;
+    margin-top: 80px;
+    color: #fff;
+}
+.title_big{
+    font-size: 48px;
+    font-weight: 700;
+}
+.subtitle{
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+}
+.line_white{
+    border: 0px;
+    border-top: 2px solid #fff;
+    width: 150px;
+    background-color: #fff;
+}
+.line_black{
+    border: 0px;
+    border-top: 2px solid #000;
+    width: 150px;
+    background-color: #000;
+}
+.line_yellow{
+    border: 0px;
+    border-top: 2px solid yellow;
+    width: 150px;
+    background-color: yellow;
+}
+.font-small{
+    font-size: 14px;
+}
+.button-user a{
+    text-align: center;
+    width: 150px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: #FEC63E;
+    border: 3px solid #FEC63E;
+    text-decoration: none;
+    transition: color 1s ease;
+    transition: border 1s ease-out;
+}
+.button-user a:hover{
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.bg-card{
+    background-color: #000;
+}
+.bg-text{
+    background-color: #FEC63E;
+    padding:15px;
+}
+.mytitle-card{
+    font-size: 18px;
+    font-weight: 600;
+}
+.bg_black{
+    background-color: #000;
+    width: 100%;
+}
+.portfolio{
+    padding-top: 30px;
+    color: #FEC63E;
+}
+.conheca{
+    margin-top: 30px;
+    color: #fff;
+}
+.font-qualidade{
+    font-size: 18px;
+    font-weight: 600;
+}
+.sustentabilidade{
+    margin-top: 50px;
+}
+.bg_footer{
+    background-color: #000;
+}
+.title_footer{
+    font-size: 18px;
+    font-weight: 700;
+}
+.text-footer{
+    color: #fff;
+    font-size: 14px;
+    max-width: 300px;
+}
+.svg{
+    background-color: #FEC63E;
+    margin-right: 30px;
+    transition: background 1s ease-in-out;
+}
+.svg:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+@media (min-width: 768px) and (max-width: 768px){
+    .sustentabilidade{
+        margin-top: 50px;
+    }
+}
+@media (min-width: 768px) { 
+    .primary_banner{
+        height: 500px;
+    }
+    .mycard{
+        max-width: 400px;
+    }
+}
